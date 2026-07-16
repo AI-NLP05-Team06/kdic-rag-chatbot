@@ -1,0 +1,23 @@
+{
+  "requested_url": "https://www.kdic.or.kr/rb/lbltajmt/LbltAjmtSprtLbltAjmtSyst/selectScrn.do",
+  "final_url": "https://www.kdic.or.kr/rb/lbltajmt/LbltAjmtSprtLbltAjmtSyst/selectScrn.do",
+  "status_code": 200,
+  "ok": true,
+  "content_type": "text/html; charset=UTF-8",
+  "encoding": "UTF-8",
+  "elapsed_seconds": 3.934,
+  "collected_at": "2026-07-14T16:24:27+09:00",
+  "content_length": 502720,
+  "raw_sha256": "cee0e42ce9f7d3b51b520c4596a43b16d6e0dcecbb61807d4a0df20e6356d2fa",
+  "redirect_history": [],
+  "selected_headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Robots-Check": "unavailable:UnicodeDecodeError"
+  },
+  "url_id": "DA-001",
+  "business_function": "채무조정 안내",
+  "page_title_manifest": "채무조정 재기지원 > 채무조정제도",
+  "fetch_strategy": "requests_html",
+  "parser_profile": "kdic_final_v1",
+  "raw_html_path": "raw/html/채무조정 안내/DA-001.html"
+}

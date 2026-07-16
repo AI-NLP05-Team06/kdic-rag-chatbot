@@ -5,19 +5,19 @@
   "ok": true,
   "content_type": "text/html; charset=UTF-8",
   "encoding": "UTF-8",
-  "elapsed_seconds": 0.703,
-  "collected_at": "2026-07-14T14:33:27+09:00",
+  "elapsed_seconds": 2.781,
+  "collected_at": "2026-07-14T16:23:57+09:00",
   "content_length": 241897,
-  "raw_sha256": "6860ae2c82257d83ebcf87c220b2493a4373adaf28c6aab21e2524d89367ee53",
+  "raw_sha256": "3a4b698b9be95e1afa11fdcbce6534ece9b87691718cd0ad625bb92895a5de0a",
   "redirect_history": [],
   "selected_headers": {
     "Content-Type": "text/html; charset=UTF-8",
-    "Robots-Check": "allowed"
+    "Robots-Check": "unavailable:UnicodeDecodeError"
   },
   "url_id": "MT-010",
   "business_function": "착오송금 반환 신청",
   "page_title_manifest": "착오송금반환지원 > 소개와 방법안내 > 관련법령 및 규정",
-  "fetch_strategy": "requests_html_links",
-  "parser_profile": "fins_legal_index_v1",
+  "fetch_strategy": "paginated_public",
+  "parser_profile": "kdic_final_v1",
   "raw_html_path": "raw/html/착오송금 반환 신청/MT-010.html"
 }

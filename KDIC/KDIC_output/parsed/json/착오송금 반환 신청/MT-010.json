@@ -2,6 +2,8 @@
   "doc_id": "MT-010",
   "parent_doc_id": "MT-010",
   "record_type": "page",
+  "indexable": true,
+  "rag_index_mode": "full",
   "title": "착오송금반환지원 > 소개와 방법안내 > 관련법령 및 규정",
   "manifest_title": "착오송금반환지원 > 소개와 방법안내 > 관련법령 및 규정",
   "html_title": "금융안심포털",
@@ -11,17 +13,11 @@
   "business_function": "착오송금 반환 신청",
   "target_business_function": "착오송금 반환 신청",
   "page_type": "legal_resource_index",
-  "parser_profile": "fins_legal_index_v1",
+  "parser_profile": "kdic_final_v1",
   "breadcrumb": [
     "착오송금 반환 신청",
-    "착오송금반환지원",
-    "소개와 방법안내",
-    "관련법령 및 규정"
+    "착오송금반환지원 > 소개와 방법안내 > 관련법령 및 규정"
   ],
-  "content_markdown": "예금자보호법\n\n- [시행 2024. 9. 10.]\n- [법률 제20431호, 2024. 9. 10., 일부개정]\n- [제정ㆍ개정문]\n\n바로가기\n\n예금자보호법 시행령\n\n- [시행 2025. 1. 31.]\n- [대통령령 제35228호, 2025. 1. 21., 타법개정]\n- [제정ㆍ개정문]\n\n바로가기\n\n착오송금반환지원 규정\n\n예금자보호법 및 시행령에 따라 예금보험위원회에 위임된사항과 그 시행에 관하여 필요한 사항을 확인할 수 있습니다.\n\n바로가기\n\n착오송금반환지원 시행세칙\n\n착오송금반환지원 등에 관한 규정에서 위임한 사항과 동 규정의 시해에 관하여 필요한 사항을 확인할 수 있습니다.\n\n바로가기",
-  "content_text": "예금자보호법 [시행 2024. 9. 10.] [법률 제20431호, 2024. 9. 10., 일부개정] [제정ㆍ개정문] 바로가기 예금자보호법 시행령 [시행 2025. 1. 31.] [대통령령 제35228호, 2025. 1. 21., 타법개정] [제정ㆍ개정문] 바로가기 착오송금반환지원 규정 예금자보호법 및 시행령에 따라 예금보험위원회에 위임된사항과 그 시행에 관하여 필요한 사항을 확인할 수 있습니다. 바로가기 착오송금반환지원 시행세칙 착오송금반환지원 등에 관한 규정에서 위임한 사항과 동 규정의 시해에 관하여 필요한 사항을 확인할 수 있습니다. 바로가기",
-  "parsed_content_sha256": "5a521ec148b18992787f14f338b9ed2904f62c660a71f82a5b49a726083a977a",
-  "content_hash": "5a521ec148b18992787f14f338b9ed2904f62c660a71f82a5b49a726083a977a",
   "blocks": [
     {
       "type": "paragraph",
@@ -90,11 +86,53 @@
     {
       "url": "https://www.law.go.kr/lsInfoP.do?lsId=004223&ancYnChk=0#0000",
       "anchor_text": "바로가기"
+    },
+    {
+      "url": "https://www.kdic.or.kr/sp/main.do",
+      "anchor_text": "KDIC(예금보험공사) 공식 홈페이지"
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "5a2321c8e8ff21a4",
+      "label": "예금자보호법 바로가기",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=001537&ancYnChk=0#0000",
+      "action_type": "legal_reference",
+      "source_tag": "a",
+      "javascript_function": "",
+      "auth_required": "불필요",
+      "official_domain": true,
+      "requires_review": false
+    },
+    {
+      "action_id": "ca4a46f9cf5407ef",
+      "label": "예금자보호법 시행령 바로가기",
+      "url": "https://www.law.go.kr/lsInfoP.do?lsId=004223&ancYnChk=0#0000",
+      "action_type": "legal_reference",
+      "source_tag": "a",
+      "javascript_function": "",
+      "auth_required": "불필요",
+      "official_domain": true,
+      "requires_review": false
     }
   ],
   "attachments": [],
   "images": [],
   "videos": [],
+  "policy": {
+    "normalized_decision": "include_full",
+    "content_scope": "법령·규정 안내와 링크 설명 전체",
+    "rag_index_label": "O",
+    "action_policy": "O(법령·규정 원문)",
+    "expected_action_types": "legal_reference",
+    "pagination_policy": "자동탐지 후 전체수집",
+    "auth_required": "불필요"
+  },
+  "parsed_at": "2026-07-14T16:23:57+09:00",
+  "content_markdown": "예금자보호법\n\n- [시행 2024. 9. 10.]\n- [법률 제20431호, 2024. 9. 10., 일부개정]\n- [제정ㆍ개정문]\n\n바로가기\n\n예금자보호법 시행령\n\n- [시행 2025. 1. 31.]\n- [대통령령 제35228호, 2025. 1. 21., 타법개정]\n- [제정ㆍ개정문]\n\n바로가기\n\n착오송금반환지원 규정\n\n예금자보호법 및 시행령에 따라 예금보험위원회에 위임된사항과 그 시행에 관하여 필요한 사항을 확인할 수 있습니다.\n\n바로가기\n\n착오송금반환지원 시행세칙\n\n착오송금반환지원 등에 관한 규정에서 위임한 사항과 동 규정의 시해에 관하여 필요한 사항을 확인할 수 있습니다.\n\n바로가기",
+  "content_text": "예금자보호법 [시행 2024. 9. 10.] [법률 제20431호, 2024. 9. 10., 일부개정] [제정ㆍ개정문] 바로가기 예금자보호법 시행령 [시행 2025. 1. 31.] [대통령령 제35228호, 2025. 1. 21., 타법개정] [제정ㆍ개정문] 바로가기 착오송금반환지원 규정 예금자보호법 및 시행령에 따라 예금보험위원회에 위임된사항과 그 시행에 관하여 필요한 사항을 확인할 수 있습니다. 바로가기 착오송금반환지원 시행세칙 착오송금반환지원 등에 관한 규정에서 위임한 사항과 동 규정의 시해에 관하여 필요한 사항을 확인할 수 있습니다. 바로가기",
+  "parsed_content_sha256": "5a521ec148b18992787f14f338b9ed2904f62c660a71f82a5b49a726083a977a",
+  "content_hash": "5a521ec148b18992787f14f338b9ed2904f62c660a71f82a5b49a726083a977a",
   "quality": {
     "status": "pass",
     "reasons": [],
@@ -104,14 +142,20 @@
     "faq_count": 0,
     "table_count": 0,
     "attachment_button_count": 0,
+    "action_count": 2,
     "noise_hits": []
   },
-  "parsed_at": "2026-07-14T14:33:27+09:00",
+  "pagination_collection": {
+    "collection_scope": "single_public_page",
+    "is_complete": true,
+    "pagination_detected": false,
+    "expected_page_count": 1,
+    "fetched_page_count": 1,
+    "failures": []
+  },
   "downloaded_assets": {
     "attachments": [],
-    "attachment_metadata": [],
     "images": [],
-    "videos": [],
     "failures": []
   }
 }

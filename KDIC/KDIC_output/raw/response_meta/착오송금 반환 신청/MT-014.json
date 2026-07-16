@@ -1,0 +1,23 @@
+{
+  "requested_url": "https://fins.kdic.or.kr/ir/msdrpr/selectAplyQlfcIdntyRslt.do",
+  "final_url": "https://fins.kdic.or.kr/ir/msdrpr/selectAplyQlfcIdntyRslt.do",
+  "status_code": 200,
+  "ok": true,
+  "content_type": "text/html; charset=UTF-8",
+  "encoding": "UTF-8",
+  "elapsed_seconds": 2.232,
+  "collected_at": "2026-07-14T16:24:15+09:00",
+  "content_length": 235840,
+  "raw_sha256": "8d4cc6520daab0d2b131f3becc748992dc5eb4767384a324fd026fc9fdf14105",
+  "redirect_history": [],
+  "selected_headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Robots-Check": "unavailable:UnicodeDecodeError"
+  },
+  "url_id": "MT-014",
+  "business_function": "착오송금 반환 신청",
+  "page_title_manifest": "착오송금반환지원 > 착오송금인 > 반환지원 신청하기 > 신청대상여부 확인",
+  "fetch_strategy": "requests_html",
+  "parser_profile": "kdic_final_v1",
+  "raw_html_path": "raw/html/착오송금 반환 신청/MT-014.html"
+}

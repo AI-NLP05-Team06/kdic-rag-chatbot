@@ -5,19 +5,19 @@
   "ok": true,
   "content_type": "text/html; charset=UTF-8",
   "encoding": "UTF-8",
-  "elapsed_seconds": 0.788,
-  "collected_at": "2026-07-14T14:32:59+09:00",
+  "elapsed_seconds": 2.417,
+  "collected_at": "2026-07-14T16:22:54+09:00",
   "content_length": 194923,
-  "raw_sha256": "7619836469a4c67635ddd3d1f4271fc09efdc280a2ac1e046557caee952787d7",
+  "raw_sha256": "5c5a89aa140dc374c3de6a6bdfb2907c877c115d3e287fd99c79142851de19a4",
   "redirect_history": [],
   "selected_headers": {
     "Content-Type": "text/html; charset=UTF-8",
-    "Robots-Check": "allowed"
+    "Robots-Check": "unavailable:UnicodeDecodeError"
   },
   "url_id": "UN-003",
   "business_function": "고객 미수령금 신청",
   "page_title_manifest": "미수령금통합신청 > 소개와 신청방법 안내 > 안내",
   "fetch_strategy": "requests_html",
-  "parser_profile": "fins_static_v1",
+  "parser_profile": "kdic_final_v1",
   "raw_html_path": "raw/html/고객 미수령금 신청/UN-003.html"
 }

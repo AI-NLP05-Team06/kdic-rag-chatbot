@@ -1,0 +1,11 @@
+﻿validation,passed
+DP-001 1억원,True
+UN-003 미수령금 종류,True
+BI-004 전체 페이지,True
+MT-009 구버전 금액 제외,True
+DP-005 FAQ 추출,True
+DP-006 FAQ 추출,True
+MT-004 FAQ 추출,True
+MT-005 FAQ 추출,True
+DA-008 FAQ 추출,True
+HP-002 FAQ 추출,True

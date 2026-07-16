@@ -1,0 +1,23 @@
+{
+  "requested_url": "https://fins.kdic.or.kr/cm/bbs/selectFaqMsdrGvbkAply.do",
+  "final_url": "https://fins.kdic.or.kr/cm/bbs/selectFaqMsdrGvbkAply.do",
+  "status_code": 200,
+  "ok": true,
+  "content_type": "text/html; charset=UTF-8",
+  "encoding": "UTF-8",
+  "elapsed_seconds": 2.236,
+  "collected_at": "2026-07-14T16:23:26+09:00",
+  "content_length": 206684,
+  "raw_sha256": "cc2d62375f41a1acf09484f0ae1bcb091d56ca16648cdcc85259ab4855587272",
+  "redirect_history": [],
+  "selected_headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Robots-Check": "unavailable:UnicodeDecodeError"
+  },
+  "url_id": "MT-004",
+  "business_function": "착오송금 반환 신청",
+  "page_title_manifest": "고객센터 > FAQ > 착오송금반환지원신청",
+  "fetch_strategy": "paginated_public",
+  "parser_profile": "kdic_final_v1",
+  "raw_html_path": "raw/html/착오송금 반환 신청/MT-004.html"
+}

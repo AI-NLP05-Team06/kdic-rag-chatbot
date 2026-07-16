@@ -1,0 +1,20 @@
+{
+  "run_id": "kdic_crawl_output_20260714_162056",
+  "manifest_count": 42,
+  "target_count": 42,
+  "document_count": 42,
+  "chunk_count": 186,
+  "status_counts": {
+    "parse_success": 37,
+    "paginated_full_collection_created": 4,
+    "link_metadata_created": 1
+  },
+  "quality_counts": {
+    "pass": 41,
+    "review": 1
+  },
+  "action_count": 68,
+  "attachment_count": 46,
+  "pagination_complete_count": 42,
+  "regression_failed_count": 0
+}

@@ -5,19 +5,19 @@
   "ok": true,
   "content_type": "text/html; charset=UTF-8",
   "encoding": "UTF-8",
-  "elapsed_seconds": 0.876,
-  "collected_at": "2026-07-14T14:33:13+09:00",
+  "elapsed_seconds": 2.239,
+  "collected_at": "2026-07-14T16:23:34+09:00",
   "content_length": 204723,
-  "raw_sha256": "2cd7d93ed3fb5ed58d16eb1a3612658431b1194634ec502183c71311be45782c",
+  "raw_sha256": "ecc028ea82b1434f27c66afc6b88455b4c743ca8a68d98ee4cfbf69b72e70780",
   "redirect_history": [],
   "selected_headers": {
     "Content-Type": "text/html; charset=UTF-8",
-    "Robots-Check": "allowed"
+    "Robots-Check": "unavailable:UnicodeDecodeError"
   },
   "url_id": "MT-005",
   "business_function": "착오송금 반환 신청",
   "page_title_manifest": "고객센터 > FAQ > TOP 10",
-  "fetch_strategy": "requests_html",
-  "parser_profile": "fins_faq_v1",
+  "fetch_strategy": "paginated_public",
+  "parser_profile": "kdic_final_v1",
   "raw_html_path": "raw/html/착오송금 반환 신청/MT-005.html"
 }

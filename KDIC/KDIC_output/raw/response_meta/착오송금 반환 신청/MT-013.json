@@ -5,19 +5,19 @@
   "ok": true,
   "content_type": "text/html; charset=UTF-8",
   "encoding": "UTF-8",
-  "elapsed_seconds": 0.881,
-  "collected_at": "2026-07-14T14:33:33+09:00",
+  "elapsed_seconds": 2.048,
+  "collected_at": "2026-07-14T16:24:10+09:00",
   "content_length": 212412,
-  "raw_sha256": "5969b85441599f3a9b65fd4d7395398dd7982ae6132b2f243b0154505e21c871",
+  "raw_sha256": "7a782034998de55fc6c734676d0914905885874afe6a5ffd46a2e687f3620a80",
   "redirect_history": [],
   "selected_headers": {
     "Content-Type": "text/html; charset=UTF-8",
-    "Robots-Check": "allowed"
+    "Robots-Check": "unavailable:UnicodeDecodeError"
   },
   "url_id": "MT-013",
   "business_function": "착오송금 반환 신청",
   "page_title_manifest": "착오송금반환지원 > 착오송금인 > 유의사항",
   "fetch_strategy": "requests_html",
-  "parser_profile": "fins_static_v1",
+  "parser_profile": "kdic_final_v1",
   "raw_html_path": "raw/html/착오송금 반환 신청/MT-013.html"
 }

@@ -5,19 +5,19 @@
   "ok": true,
   "content_type": "text/html; charset=UTF-8",
   "encoding": "UTF-8",
-  "elapsed_seconds": 1.528,
-  "collected_at": "2026-07-14T14:32:20+09:00",
+  "elapsed_seconds": 3.941,
+  "collected_at": "2026-07-14T16:21:15+09:00",
   "content_length": 503015,
-  "raw_sha256": "904501e795c1d6a657bd339f856f65f8cebef02d09e688c5be428f1f911c36b7",
+  "raw_sha256": "6fa931d3994f255aa51898b8a7cb9e688129f74cc6569d996033e0f4ab6b00a7",
   "redirect_history": [],
   "selected_headers": {
     "Content-Type": "text/html; charset=UTF-8",
-    "Robots-Check": "allowed"
+    "Robots-Check": "unavailable:UnicodeDecodeError"
   },
   "url_id": "DP-003",
   "business_function": "예금자보호제도",
   "page_title_manifest": "보호대상 > 금융회사 > 개요",
-  "fetch_strategy": "requests_html",
-  "parser_profile": "kdic_static_v1",
+  "fetch_strategy": "requests_html_assets",
+  "parser_profile": "kdic_final_v1",
   "raw_html_path": "raw/html/예금자보호제도/DP-003.html"
 }

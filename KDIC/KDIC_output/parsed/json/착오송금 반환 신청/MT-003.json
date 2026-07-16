@@ -2,6 +2,8 @@
   "doc_id": "MT-003",
   "parent_doc_id": "MT-003",
   "record_type": "page",
+  "indexable": true,
+  "rag_index_mode": "full",
   "title": "착오송금 반환지원제도 > 착오송금반환지원 신청방법",
   "manifest_title": "착오송금 반환지원제도 > 착오송금반환지원 신청방법",
   "html_title": "제도·정책 착오송금 반환지원제도 착오송금반환지원 신청방법",
@@ -11,16 +13,11 @@
   "business_function": "착오송금 반환 신청",
   "target_business_function": "착오송금 반환 신청",
   "page_type": "static_page",
-  "parser_profile": "kdic_static_v1",
+  "parser_profile": "kdic_final_v1",
   "breadcrumb": [
     "착오송금 반환 신청",
-    "착오송금 반환지원제도",
-    "착오송금반환지원 신청방법"
+    "착오송금 반환지원제도 > 착오송금반환지원 신청방법"
   ],
-  "content_markdown": "### 신청방법\n\n온라인 신청 사이트 : fins.kdic.or.kr (상단 아이콘 클릭 시 사이트 연결) 접속방법 : PC (모바일은 추후 지원 예정) 준비물 : 공동인증서, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인 예금보험공사 핵심가치 방문 신청 주소 : 서울시 중구 청계천로 30 1층 (상단 아이콘 클릭시 지도 연결) 연락처 : 1588-0037 준비물 : 신분증, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인",
-  "content_text": "신청방법 온라인 신청 사이트 : fins.kdic.or.kr (상단 아이콘 클릭 시 사이트 연결) 접속방법 : PC (모바일은 추후 지원 예정) 준비물 : 공동인증서, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인 예금보험공사 핵심가치 방문 신청 주소 : 서울시 중구 청계천로 30 1층 (상단 아이콘 클릭시 지도 연결) 연락처 : 1588-0037 준비물 : 신분증, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인",
-  "parsed_content_sha256": "0822f58a8eed0c73fda9638f5c789998ec62dd56711f74feae71f2551212de87",
-  "content_hash": "0822f58a8eed0c73fda9638f5c789998ec62dd56711f74feae71f2551212de87",
   "blocks": [
     {
       "type": "heading",
@@ -40,6 +37,34 @@
     {
       "url": "https://www.kdic.or.kr/di/pbcritrd/PbcrPath/selectScrn.do",
       "anchor_text": "방문 신청 주소 : 서울시 중구 청계천로 30 1층 (상단 아이콘 클릭시 지도 연결) 연락처 : 1588-0037 준비물 : 신분증, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인"
+    },
+    {
+      "url": "http://www.kdic30th.kr",
+      "anchor_text": "창립 30주년 예금보험공사 디지털역사관 바로가기"
+    }
+  ],
+  "actions": [
+    {
+      "action_id": "30d2d61156f630a6",
+      "label": "온라인 신청 사이트 : fins.kdic.or.kr (상단 아이콘 클릭 시 사이트 연결) 접속방법 : PC (모바일은 추후 지원 예정) 준비물 : 공동인증서, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인 예금보험공사 핵심가치",
+      "url": "https://fins.kdic.or.kr/ir/aplygudn/MtrsStutChc/selectScrn.do",
+      "action_type": "apply",
+      "source_tag": "a",
+      "javascript_function": "",
+      "auth_required": "온라인 신청 시 필요",
+      "official_domain": true,
+      "requires_review": false
+    },
+    {
+      "action_id": "3a3e3c444642d5f2",
+      "label": "방문 신청 주소 : 서울시 중구 청계천로 30 1층 (상단 아이콘 클릭시 지도 연결) 연락처 : 1588-0037 준비물 : 신분증, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인",
+      "url": "https://www.kdic.or.kr/di/pbcritrd/PbcrPath/selectScrn.do",
+      "action_type": "apply",
+      "source_tag": "a",
+      "javascript_function": "",
+      "auth_required": "온라인 신청 시 필요",
+      "official_domain": true,
+      "requires_review": false
     }
   ],
   "attachments": [],
@@ -58,6 +83,20 @@
     }
   ],
   "videos": [],
+  "policy": {
+    "normalized_decision": "include_full",
+    "content_scope": "온라인·방문 신청방법 전체",
+    "rag_index_label": "O",
+    "action_policy": "O(온라인 신청·방문 위치)",
+    "expected_action_types": "apply|location",
+    "pagination_policy": "불필요",
+    "auth_required": "온라인 신청 시 필요"
+  },
+  "parsed_at": "2026-07-14T16:23:21+09:00",
+  "content_markdown": "### 신청방법\n\n온라인 신청 사이트 : fins.kdic.or.kr (상단 아이콘 클릭 시 사이트 연결) 접속방법 : PC (모바일은 추후 지원 예정) 준비물 : 공동인증서, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인 예금보험공사 핵심가치 방문 신청 주소 : 서울시 중구 청계천로 30 1층 (상단 아이콘 클릭시 지도 연결) 연락처 : 1588-0037 준비물 : 신분증, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인",
+  "content_text": "신청방법 온라인 신청 사이트 : fins.kdic.or.kr (상단 아이콘 클릭 시 사이트 연결) 접속방법 : PC (모바일은 추후 지원 예정) 준비물 : 공동인증서, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인 예금보험공사 핵심가치 방문 신청 주소 : 서울시 중구 청계천로 30 1층 (상단 아이콘 클릭시 지도 연결) 연락처 : 1588-0037 준비물 : 신분증, 이체(송금)확인증* * 본인 신청이 아닌 경우, 구비서류 확인",
+  "parsed_content_sha256": "0822f58a8eed0c73fda9638f5c789998ec62dd56711f74feae71f2551212de87",
+  "content_hash": "0822f58a8eed0c73fda9638f5c789998ec62dd56711f74feae71f2551212de87",
   "quality": {
     "status": "pass",
     "reasons": [],
@@ -67,14 +106,20 @@
     "faq_count": 0,
     "table_count": 0,
     "attachment_button_count": 0,
+    "action_count": 2,
     "noise_hits": []
   },
-  "parsed_at": "2026-07-14T14:33:11+09:00",
+  "pagination_collection": {
+    "collection_scope": "single_public_page",
+    "is_complete": true,
+    "pagination_detected": false,
+    "expected_page_count": 1,
+    "fetched_page_count": 1,
+    "failures": []
+  },
   "downloaded_assets": {
     "attachments": [],
-    "attachment_metadata": [],
     "images": [],
-    "videos": [],
     "failures": []
   }
 }
